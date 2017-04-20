@@ -146,6 +146,9 @@ def fetch_weather_data(location,date) :
  # Fetching the current url
  result_url=driver.current_url
 
+ # Closing the Selenium driver
+ driver.quit()
+
 
  # If the page does not submit
  if result_url==base_url :
