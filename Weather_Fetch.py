@@ -257,6 +257,7 @@ if __name__ == "__main__":
 
 	location=raw_input('Please enter the location in the format [city],[state] (without the square brackets) : ')
 	date=raw_input('Please enter the date in the format mm-dd-yyyy : ')
+	print 
 	print fetch_weather_data(location,date)
 
 

@@ -1,4 +1,4 @@
-from weather import *
+from Weather_Fetch import *
 
 #Test Case 1-Valid City and Date
 location = "San Francisco,California"
